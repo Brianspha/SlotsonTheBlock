@@ -1,0 +1,50 @@
+{
+    "default": {
+        "versions": {
+            "web3.js": "1.0.0-beta",
+            "solc": "0.4.17"
+        },
+        "deployment": {
+            "host": "localhost",
+            "port": 8545,
+            "type": "rpc"
+        },
+        "dappConnection": [
+            "$WEB3",
+            "http://localhost:8545"
+        ],
+        "gas": "5000000",
+        "contracts": {
+            "TokenRecipt": {
+                "args": [
+
+                ],
+                "gas": 3000000
+            },
+            "Dogo": {
+                "args": [
+
+                ],
+                "gas": 3000000
+            },
+            "ERC20": {
+                "args": [
+
+                ],
+                "gas": 3000000
+            },
+            "DogoContract": {
+                "args": [
+
+                ],
+                "gas": 3000000
+            },
+            "Slots": {
+                "args": [
+
+                ],
+                "gas": 3000000
+            }
+        }
+    }
+}

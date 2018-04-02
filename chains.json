@@ -1,0 +1,369 @@
+{
+  "0x00fa55e1496f9baa816c9215110b04ae1cb488a603554f563325df2eb8af0734": {
+    "contracts": {
+      "0x6ae355b1aa65b82aface15fae07c0311307b6ce5105996100a25d4d9499685a7": {
+        "name": "Dogo",
+        "address": "0xca5c6fbb130b576ba9703546f2249367e7201a8d"
+      },
+      "0xb8422630487489a5cb9553d53f19fea6df0c55701da54481a585a5c74cd9524f": {
+        "name": "TokenRecipt",
+        "address": "0x8b29b490d0ce1b339607e362319cbdf92400831a"
+      },
+      "0x7bd275519145f9868e47db4827b1c549d245a7d7a2bd1dedbde9c7f8fe253af5": {
+        "name": "Dogo",
+        "address": "0xefe44df4c34583dafb9aaca38025f10fe0f96b46"
+      },
+      "0x948f857ff6f5663cc169b4ca95e5a15b50a5399c8707fbc35fee391568f5227c": {
+        "name": "ERC20",
+        "address": "0x44718bad7913723ca0a7ba21322b73162d3dd6a7"
+      },
+      "0xf955ca47d2e0ffe8af8b5b3142464c962ad11a8e1d82975f7a015cff73a06de9": {
+        "name": "TokenRecipt",
+        "address": "0xfcb79b065d0e016ea075d3fba336a28cde9bfc7f"
+      },
+      "0x6b3965f9825893bc7599c3bcde3751d0a4ccc26da20478606724267146f134d4": {
+        "name": "Dogo",
+        "address": "0xfd4291b1c089ed7ef3de73165bc282d548255768"
+      },
+      "0x6fccb34ef058fd7a3073f6b105bf962be07446e17dfd300ee5c4bc342a337473": {
+        "name": "ERC20",
+        "address": "0xebd06c03ba26f27ea443842bc6b48ed66b088a4a"
+      },
+      "0xbc51aa8abc4bad81b596deab72a9d62c9082cafd8a56c2f6f6ca1e7ea03f9e7d": {
+        "name": "TokenRecipt",
+        "address": "0x5968406d966addb5871fa500e1d40f3f53cf6a7f"
+      },
+      "0xa6d2686a8ebdefb0249a7fbe5e1e2bd13ca80b6326906e2b7f92811ed5fcf24e": {
+        "name": "Dogo",
+        "address": "0x77c5983e4242e34bfa06404706b17d8fb2072f98"
+      },
+      "0x4e383cffedd3ceda4443cf730cece2854a5ab8b74c5e105d1813f891e91b2243": {
+        "name": "ERC20",
+        "address": "0xcff9e2da3c782b009285b44ff1514742aa67766f"
+      }
+    },
+    "name": "development"
+  },
+  "0x0e0a03059d27a3dc87fe98e2edf6b698f4f17a05c3c9db9ee2fce28d59152155": {
+    "contracts": {
+      "0x3fcf676b91ccf095e88a46782290877eb1a80ff9d8dcdeb273feba634bd3483f": {
+        "name": "TokenRecipt",
+        "address": "0xa35126c193327fe8e30dfa2c538c5c2398b1753d"
+      },
+      "0x0b90d7cd916e2885b13b7ef5d1666aebf6a470c1b9f700e06c0231b0e445a823": {
+        "name": "Dogo",
+        "address": "0xe4ed3a4941f740a3bc257fdcfff5e6e8cedea02e"
+      },
+      "0x214e8f44fc6d352186c71722798326a2dac8693a2d7b047f19b131cd213639a1": {
+        "name": "ERC20",
+        "address": "0x95a6d7ec1be4a4ca65d2d8db78dbcb29d5675eb2"
+      },
+      "0x0bd7a368336e4d380e5163b03d3d2a48b3614e4eb5369ec025676d5783d3b9be": {
+        "name": "DogoContract",
+        "address": "0x1e2cfe1e0d2a11365c2db622274fa173be0cfc28"
+      },
+      "0xdf6443a413adbf4c64829ac86ca18e58b43fa94ea18a9409b28dd128112d678c": {
+        "name": "Slots",
+        "address": "0x5f8179965212e4ad8c53e5762d2572e393f58c06"
+      },
+      "0x96c71bfd59bd82ef9fc72eea49cfef9a5131e6f1d5cc5fac22a1c27d37385fed": {
+        "name": "DogoLogEventsInterface",
+        "address": "0xc3b60fc363774744a29e3bb8ef0f4fe264a6d8d6"
+      },
+      "0x1f7d9bcac975a5e3f946116368d386bfcb581371dec69d6fc5b1311b94ab938e": {
+        "name": "TokenRecipt",
+        "address": "0xe92c906467825b3c6ce864859c05a14d22372b23"
+      },
+      "0x3c3d1f03e11db33953d65c7ce487eacba62f78c27bedde19d9b9675aeb52e215": {
+        "name": "Dogo",
+        "address": "0x7dea63f9e4b8825d99817eade7d9c863e47a93e1"
+      },
+      "0xe8f87cfab2c7c6c2096f90f3c2e939812931552a923be7ddd62f32c7e0e61c5a": {
+        "name": "TokenRecipt",
+        "address": "0x59313c741e8388d5179bb2b5b9be44aeec7730f8"
+      },
+      "0x2fdba0b16d11cb3af1277377ed4fde533631bd2b30ab0f21b82e22ac572d5739": {
+        "name": "ERC20",
+        "address": "0xcdb0da0edb9f1e98bf3ac4d6cd52bd5227a51262"
+      },
+      "0x6da61964d66d482735e77ce619534ca608f949e93881b90bc23bea13f5d963c3": {
+        "name": "Dogo",
+        "address": "0xb8411c8634ee4978234f42c526f95afdaa6a16b5"
+      },
+      "0x497bf05f1ca22d45cc581d89c8aa83a2bdda00aceef90c229658b64c8a17531c": {
+        "name": "DogoContract",
+        "address": "0x6687a55864d69bf3e9c41379e03e83d805e617b3"
+      },
+      "0x88442c07471d251fbf6746a5bc9cf4e7d2084781ce6b11c39fe277a45af9252d": {
+        "name": "ERC20",
+        "address": "0x780f2353bc2d3cc6c1a053eaab758d4efccb8e47"
+      },
+      "0xa6555de3c77373a750d655f534d9ba403662433af141eb8a28efec6d7b900792": {
+        "name": "Slots",
+        "address": "0x95723d975b43b91a6c968d035f907121166e1431"
+      },
+      "0xf692dcd7dec9f52bc0ee0fd623b27462412c8c0f1abf4c4a92de5aeb8fdd38b6": {
+        "name": "DogoContract",
+        "address": "0x8d2e71a52b15df5c408c75ad95abec775bb2925a"
+      },
+      "0x563c9970d782e25b6c5b9b9d4e5a458c408a789e757a3297f7f5219845ff13af": {
+        "name": "DogoLogEventsInterface",
+        "address": "0xa733e846101ac2c137885da16bf7dd06878664a3"
+      },
+      "0x0b14c14c21d3dbec1081628c9dbbc5913f0627563827a20caa51074fd026a276": {
+        "name": "Slots",
+        "address": "0x5962a577b6854ad7634c958455594b70724010e3"
+      },
+      "0x67b8fdd01a2fc15d6aff07474db5c9410d98e9c2a07cd1e0346fa878c7e62e93": {
+        "name": "DogoLogEventsInterface",
+        "address": "0x2ff84d450c07fca62416035ddaf1cbdfe960e9d7"
+      },
+      "0xc88666adeec731c676f00daa2727ae3d4c066c442e240aea76965ee652e3eda5": {
+        "name": "TokenRecipt",
+        "address": "0x9c1ff28cac3f73f1aa6d6bca1c84582f3e99f71e"
+      },
+      "0x0960a8c5ae31023584c829962d85bbb586b4c491750446fd635a4ea638ad3665": {
+        "name": "Dogo",
+        "address": "0x045763b48709bd22bbefcd458f36e0daf5bfc41b"
+      },
+      "0xab43ec89868f5cc85b3e7101386ee792ca1cd5b8a6f6d287c917bf9fef15beea": {
+        "name": "ERC20",
+        "address": "0xf87e61fe647c2514d2b40d57e26f4290b7ab317c"
+      },
+      "0x17d69efe4b7eace18a8b3912bc62a47958a02fc044b2766230035593b0f340d1": {
+        "name": "DogoContract",
+        "address": "0x47b0be5a0d8152f7c35c33662c77d03859f6d32e"
+      },
+      "0xd68b5978fc447b5a0c4ea607f842ef8f383b9cdad010dc6d8931c41473ac621d": {
+        "name": "Slots",
+        "address": "0x1d25bee4b2654d60d48d18ca09d6818310d004b2"
+      },
+      "0x0aaf9431c009b8528d4180682c9ae12222d39a091df0dcd3316e0a9462245158": {
+        "name": "DogoLogEventsInterface",
+        "address": "0xa61acdf7ae0a15a53f1d768fa43fb9540c2c3095"
+      },
+      "0x08b0a7cb845a91ad3a21b81db72e4c8bc8de9817470d65c10ccd09d08d8427cc": {
+        "name": "TokenRecipt",
+        "address": "0xd25d1be08838b3abfd3c7cc2c282f5ba0f3d9ae4"
+      },
+      "0x02f20d67ba463c0360492f722782c5493b197453e52e5adc01510811b2446a2d": {
+        "name": "Dogo",
+        "address": "0x4558972fd50597afd3c7a942f3ca25a462ba0043"
+      },
+      "0x829ab76c8b80c22641b6359d157cc23c6bb424d9a0c1ac4d008c1dd8a1772bf8": {
+        "name": "ERC20",
+        "address": "0xff9b15ab9b5a87fb3e24e3e22f456585fb6e223c"
+      },
+      "0x9041ab24bf3f294d228ee4c2fe000d81cde6d0b91ac0e9343ebd11e3950a0774": {
+        "name": "DogoContract",
+        "address": "0xd52f4a974cdf1ef999d8c24d2ee36506cc75aca3"
+      },
+      "0x7ca9eb86d5289c4a24b2f069e199a9d9f7d6ae326e3e14d90621a5e65bd770da": {
+        "name": "Slots",
+        "address": "0x4b99935dc367709e65ee0a0679bef3e26a9b3f7c"
+      },
+      "0x481d14cd863db7adb591a3b9f4e5cc0e88b0e1a363c00736c47e4432fdbeca8d": {
+        "name": "DogoLogEventsInterface",
+        "address": "0x32f2e14ebf45c2137302dec7da5b54b2c4da1d59"
+      },
+      "0xead74f25b809ff62a8ed6123817faa3329adb91f86bee34ce1b541dd824b51e3": {
+        "name": "TokenRecipt",
+        "address": "0xc0dfcb6799b57589163cb6ada6f0f13ecb084eda"
+      },
+      "0x9c0b1ed6c3742dd97469b5c1f491745ea8cdb8bc64f17ed294682ed61de28f16": {
+        "name": "Dogo",
+        "address": "0x98f73f2a4bc4538711037c8ff1d9773f19c7455f"
+      },
+      "0xa235d29191aa46ed049dced40d792a57cce273758f5863c02b6b4ee5b051f4c6": {
+        "name": "ERC20",
+        "address": "0x6e03fe0073ccce21487b127aaaa6745b349865f0"
+      },
+      "0x66c32df10a66508c298898b8960fb38f3cb790d56d837452d4603fcd8d516354": {
+        "name": "DogoContract",
+        "address": "0x54691525f0364b38b2eb59dfc2e2b99665ae83a5"
+      },
+      "0xe010e6e9b4f663be24dcb278b00c1f88d00dd5b72e97e34a2bd699d7c11db5b1": {
+        "name": "Slots",
+        "address": "0x5fd0a970e0b4cef5470dec480c2219754d44fc13"
+      },
+      "0x9f997a33bc9909ff88e038fce477afa90b118007c9fd71a3bbf0bcb691c787b9": {
+        "name": "DogoLogEventsInterface",
+        "address": "0x0b42e2f5a42042b6c1560525c0d48b557f0dca73"
+      },
+      "0x8ef58c5ecdb2f9d2bd2546a86a7837e9f7710a7c6502591d2558378a9d34c497": {
+        "name": "TokenRecipt",
+        "address": "0xc7fa902dd53365f144a3c048fadbc0543207437e"
+      },
+      "0x3b6d3c25104e6639510875a4bf392ce692a80797271f82818ec6e82e550a71c2": {
+        "name": "Dogo",
+        "address": "0xd03f7c0ba65aef9cb3dfd53dbced5e8693d868b8"
+      },
+      "0xcd1c75bab96152b9cb82897e95aa36cd78c620626b0ad317471f887cfd58c1cb": {
+        "name": "ERC20",
+        "address": "0xf1552ff6401f988d2997f7b02a9faa673abaada7"
+      },
+      "0xefc6e16a966ffd5fb7ddc125157f19de3f0121da53cf52b0721f3cd4e6526250": {
+        "name": "DogoContract",
+        "address": "0x05b9101397198fb6bb61b3ca72129be77555f626"
+      },
+      "0xd49346bce2d269c2ddde69210e98346933309abb783c593d5e36c48d9da01fbf": {
+        "name": "Slots",
+        "address": "0xf4cf63402fb0b0d4c74e303c2f66f406f7f9a9d0"
+      },
+      "0x6096ecde3a01333b4c1f43be60e393b6ff9c63739bfd2492c668c5353bc26adb": {
+        "name": "TokenRecipt",
+        "address": "0x6b3f674292573ade9159555c647e5f376cdeb059"
+      },
+      "0x9d7f6860fa8b58de945bf3079bc4c84684c0f2b24d4905585ee467ecfd445607": {
+        "name": "DogoLogEventsInterface",
+        "address": "0x8a2c155fd7d355a0ecf599b2d06904d9b3349ffc"
+      },
+      "0x22ae581f05381bb45e23ca866056999e36fd8cf929f8f4d81e5203d3b02091be": {
+        "name": "Dogo",
+        "address": "0x84ac04dd028b1a8c2d8041a2ed6b0d6443d6bbbc"
+      },
+      "0x6056a0b204185c77af0129d4aaa4b78486306b5f6c488209e98918e8e2eeebfc": {
+        "name": "TokenRecipt",
+        "address": "0x4e597b9eafc7510ef6f54ff5c8c9a6fc246746a2"
+      },
+      "0xe935cb366b06b53a2b02c8b1554734e0451b322507159e339f1d49e945740732": {
+        "name": "ERC20",
+        "address": "0xb243bedcfb435b4d7c01991fbbeba5c75604604a"
+      },
+      "0xa517cf9e5b134a3a8f4893a6d9281ec142ba808699409b41d4be95a358034d19": {
+        "name": "TokenRecipt",
+        "address": "0x141202a2ab2dad71951b00d6e7bd88e85edabd3a"
+      },
+      "0xff6f9f8dd6caad8e027037cdc13748a09ca37dddeb86883c63f5ae86e41b9649": {
+        "name": "Dogo",
+        "address": "0x21e90abd456ecbaa5e911566edab25533ebcc544"
+      },
+      "0xfaa35f67d568405f0f8729e829e991c9b136036c9dd8672646f9481aa9c526fe": {
+        "name": "DogoContract",
+        "address": "0xd38b6d0ab499c129124d02a1ccdbf198591b31a9"
+      },
+      "0xe2aaa505af2d2c5501f247d656921967cc79da49c4d290c6232cde834557b918": {
+        "name": "Dogo",
+        "address": "0x7d8c40170bc754ff41177f9aef49d4b9c3365bf1"
+      },
+      "0xf05206f49efa642a877179ee064853af8a4b3b406eb9b92764ab0d4467d10714": {
+        "name": "ERC20",
+        "address": "0xbfa32873220ef1738f4262e9e3efe423398e64a8"
+      },
+      "0x12bb42423226d4d2673531f94c1f0aa3ee846ecd2a3d816633fb526a3a7e7ea3": {
+        "name": "ERC20",
+        "address": "0x0fb10ab022ff2289bbfc1a4a87412fda777b9e70"
+      },
+      "0x5e71d7e357deec3bacf55b741fa49aabe13ceab14bd915ce1404faa7a767feb6": {
+        "name": "Slots",
+        "address": "0xfcfdffe0d7e8667ed8c9ca38143dfa8794ba049b"
+      },
+      "0xf3c18cdf52b9aaeb0bfcbdcc902c6088e5bba01e38534371ee22e698a2cae7b9": {
+        "name": "DogoContract",
+        "address": "0x5dc6c15a82a00c59c5c8e1ab74737a5305786066"
+      },
+      "0x79c83fd5f3b3f34bca50571b525c530f0f059299d828eeb9e3d6dca6e5700337": {
+        "name": "DogoContract",
+        "address": "0x3b7a37dcdcddebf61d7e6169fc3d8177ade3ec37"
+      },
+      "0x254e128bf1800419968011c22d642e56047c8838b34fa8e660038a5e003d414b": {
+        "name": "DogoLogEventsInterface",
+        "address": "0x038eacff401d11080323662167a276ce26e8e0d5"
+      },
+      "0xf52cdddbbc18591412efc984da899af19169ddfce6fe431d65990c20f070dc0a": {
+        "name": "Slots",
+        "address": "0x306b5751b272ee21a4dc775618499c6331a2b3d3"
+      },
+      "0xe702449e917687afc7bd80f0c4ee0cfd18f7b3909c44ef7d7bd13602365674b9": {
+        "name": "Slots",
+        "address": "0x9a6dc20cbd9efaabc7ca79be3417442e5085089c"
+      },
+      "0x4080bc933fd3f5d368ac5e7fa3b0440968a4018363a667f85d18567f8b20dbbf": {
+        "name": "DogoLogEventsInterface",
+        "address": "0x0a3167b0386c18c0ec1dfd277caba508d50bfe38"
+      },
+      "0x5d186c83fd29bd277fc1ed91ba6066423c7420fe2c699bb7c19678c41845c6e3": {
+        "name": "DogoLogEventsInterface",
+        "address": "0xdf6f97900f4649e4f8b8510ae8f8a33417bc9c78"
+      },
+      "0xb73b3a7391ce155930980596ccf63bbc2235ea083f7a31abf66207c797d2f4f7": {
+        "name": "TokenRecipt",
+        "address": "0x9daf2cd99abe28e090f2fc9be33c1e94b4504ffa"
+      },
+      "0x3eb82254d49eb56a08c294617628345bc5839dd69fe301e769bea90a5f8a2c78": {
+        "name": "Dogo",
+        "address": "0xe81b398a4f70c0d4b7eb627d77a974a39f027cd1"
+      },
+      "0x33eafa42088beb24312db94003063d7cd7de0dc8ee601c9e2c69946e5369d93b": {
+        "name": "ERC20",
+        "address": "0xda8fd06f5e64a50bfde73df7f03590b64ec990ed"
+      },
+      "0xab1fae875d7a6b84920f8ac1abc7b50a14093eeebea6831943ff58a6059ace85": {
+        "name": "DogoContract",
+        "address": "0x03fbb96e31456f107917c44a8691233cfde8940f"
+      },
+      "0xbfd75524ae170cbea5e7836832c8ea03ccb31278750885a71dae59b18ed9b0ad": {
+        "name": "Slots",
+        "address": "0x9154cf417b746e587584cf1b2b86f5f2331e3747"
+      },
+      "0xaf87e469bdde4580d14ff66e2d33ce487c9d1a72e84f94d912477ad7102a65ac": {
+        "name": "DogoLogEventsInterface",
+        "address": "0x534cd6c369aeb82245c4fb7dd2ae96b2468e8acf"
+      },
+      "0xd4a9392cfa520fafed274d16bac5715da0a021793e1cc777eeb88a1a27b8b0d5": {
+        "name": "TokenRecipt",
+        "address": "0xd2d5be481645aaeb0fe703e45c203630b5f517f7"
+      },
+      "0x097e91a1c4028c8b4f38b8a1183f7ff1edb500fe5d2cb9321aad781959135202": {
+        "name": "Dogo",
+        "address": "0x77df8fbe89831fefc8edbbf1e24931861189d499"
+      },
+      "0x889cd4cc239b1aef04f6ef72cd1bd26c840918e3426b2603fb65996df2cc425f": {
+        "name": "ERC20",
+        "address": "0xf10b82b6477cd0b032642bca451f2769191c5016"
+      },
+      "0x5243b19b750eb6480a1ca03a23c2291caa93fbd9763eb3ad38c2f7e3882cc724": {
+        "name": "DogoContract",
+        "address": "0x7850017e218675da050e1ef89ce0f2d301f93329"
+      },
+      "0xe491ddb4d478f9d81fd0c8b8a11604878be3feabc23fd0e4897d404f1e1a4855": {
+        "name": "Slots",
+        "address": "0x2aa622473e644ded3fc08a979cccb40b5694d730"
+      },
+      "0xc4cac432f9e625df695ccb7061e62f7a38da573d4afb90d6f5b1acbfa3ec0df1": {
+        "name": "DogoLogEventsInterface",
+        "address": "0x927ba0b27750eb69966b56b38922efe00180a2b4"
+      }
+    },
+    "name": "development"
+  },
+  "0x51e90133540299e9fa67e58d4e7598e7aeb6603b926b02d92c88a9cbb3b14cbd": {
+    "contracts": {
+      "0xd4a9392cfa520fafed274d16bac5715da0a021793e1cc777eeb88a1a27b8b0d5": {
+        "name": "TokenRecipt",
+        "address": "0x23caa27f3483f2e6dcd65599ae1e39c2e0243635"
+      },
+      "0x097e91a1c4028c8b4f38b8a1183f7ff1edb500fe5d2cb9321aad781959135202": {
+        "name": "Dogo",
+        "address": "0x14ee681d566e33f98842648698388c13b14d3753"
+      },
+      "0x889cd4cc239b1aef04f6ef72cd1bd26c840918e3426b2603fb65996df2cc425f": {
+        "name": "ERC20",
+        "address": "0x0d7bd71b986534ac191e13e26a43d4034ddaf5b6"
+      },
+      "0x5243b19b750eb6480a1ca03a23c2291caa93fbd9763eb3ad38c2f7e3882cc724": {
+        "name": "DogoContract",
+        "address": "0x2f390586cd688f682256ef3bc42080f6ca2275c1"
+      },
+      "0xe491ddb4d478f9d81fd0c8b8a11604878be3feabc23fd0e4897d404f1e1a4855": {
+        "name": "Slots",
+        "address": "0xe2138d64249021d2b2508b01f3101ede0a69bbb4"
+      },
+      "0xc4cac432f9e625df695ccb7061e62f7a38da573d4afb90d6f5b1acbfa3ec0df1": {
+        "name": "DogoLogEventsInterface",
+        "address": "0x56f0c701454ec98143a66089e8040825453146aa"
+      }
+    },
+    "name": "development"
+  }
+}
