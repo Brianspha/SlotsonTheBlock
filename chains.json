@@ -365,5 +365,63 @@
       }
     },
     "name": "development"
+  },
+  "0x3c7870f0a152be44c46f8cd596bce9f55e873d14099c0317c1be69e53e3088d8": {
+    "contracts": {
+      "0xd4a9392cfa520fafed274d16bac5715da0a021793e1cc777eeb88a1a27b8b0d5": {
+        "name": "TokenRecipt",
+        "address": "0xf095e767ea35904db4bf00e031d455afcbc378dd"
+      },
+      "0x097e91a1c4028c8b4f38b8a1183f7ff1edb500fe5d2cb9321aad781959135202": {
+        "name": "Dogo",
+        "address": "0xc9be6464ce579ecb42cb4d7b0841211674eda65d"
+      },
+      "0x889cd4cc239b1aef04f6ef72cd1bd26c840918e3426b2603fb65996df2cc425f": {
+        "name": "ERC20",
+        "address": "0xd224cbaea58bbad6e088056c6f7c4eb2eaf6b71f"
+      },
+      "0x5243b19b750eb6480a1ca03a23c2291caa93fbd9763eb3ad38c2f7e3882cc724": {
+        "name": "DogoContract",
+        "address": "0x79af1a01fbd05056c205998c7fd9b032de5567af"
+      },
+      "0xe491ddb4d478f9d81fd0c8b8a11604878be3feabc23fd0e4897d404f1e1a4855": {
+        "name": "Slots",
+        "address": "0x626a50f6749597c9f3ff1719c3420cae30925cf5"
+      },
+      "0xc4cac432f9e625df695ccb7061e62f7a38da573d4afb90d6f5b1acbfa3ec0df1": {
+        "name": "DogoLogEventsInterface",
+        "address": "0x073dbf6c3b3c440a9eb2ee1813eb9cda3caca701"
+      }
+    },
+    "name": "development"
+  },
+  "0x6fb4715492e830330729c0b8a50123306251e08c3bab5161ca10d34b83adc8c5": {
+    "contracts": {
+      "0xd4a9392cfa520fafed274d16bac5715da0a021793e1cc777eeb88a1a27b8b0d5": {
+        "name": "TokenRecipt",
+        "address": "0x184bc392b1b7f9a07449c3442468987e678e0774"
+      },
+      "0x097e91a1c4028c8b4f38b8a1183f7ff1edb500fe5d2cb9321aad781959135202": {
+        "name": "Dogo",
+        "address": "0xdced8b2dd154a437fb0325f33f687275a4d0665e"
+      },
+      "0x889cd4cc239b1aef04f6ef72cd1bd26c840918e3426b2603fb65996df2cc425f": {
+        "name": "ERC20",
+        "address": "0xfef9f4dbbd84696d247fd763622366dddf36c3ac"
+      },
+      "0x5243b19b750eb6480a1ca03a23c2291caa93fbd9763eb3ad38c2f7e3882cc724": {
+        "name": "DogoContract",
+        "address": "0x227c9d4e8458d197d510c18f1cd3b0ec39519a6b"
+      },
+      "0xe491ddb4d478f9d81fd0c8b8a11604878be3feabc23fd0e4897d404f1e1a4855": {
+        "name": "Slots",
+        "address": "0x3854181737878e3023f15be4ef6fc98f111a0571"
+      },
+      "0xc4cac432f9e625df695ccb7061e62f7a38da573d4afb90d6f5b1acbfa3ec0df1": {
+        "name": "DogoLogEventsInterface",
+        "address": "0x802938cbb141e0b21d73f3dccd7b6b6e6ed1d59b"
+      }
+    },
+    "name": "development"
   }
 }
