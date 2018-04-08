@@ -1,5 +1,6 @@
 $(document).ready(function () {
   //Login Code Start
+  var Done =false;//used for animation
   $("#login").click(function(e) {
     e.preventDefault(); //prevent the page from refreshing
     var Username = document.getElementById("user").value;
@@ -13,7 +14,10 @@ $(document).ready(function () {
         alert(value);
         if(value)
         {
-          location.replace("/SlotsonTheBlock/dist/HtmlPages/MainMenu.html");
+          //location.replace("/SlotsonTheBlock/dist/HtmlPages/MainMenu.html");
+          document.getElementById("Main").style.display="none";
+          document.getElementById("pick").style.display="block";
+          InitSlotMachine("Sphamandla");
         }
         else
         {
@@ -27,7 +31,9 @@ $(document).ready(function () {
        alert(value);//not entirely sure how i would handle checking if the login was succesfull if the user is using an older version of embarkjs
        if(value)
        {
-        location.replace("/SlotsonTheBlock/dist/HtmlPages/MainMenu.html");
+        //location.replace("/SlotsonTheBlock/dist/HtmlPages/MainMenu.html");
+        document.getElementById("Main").style.display="none";
+       
       }
        else
        {
@@ -60,7 +66,10 @@ $(document).ready(function () {
         alert(value);
         if(value)
         {
-              location.replace( "../HtmlPages/MainMenu.html");
+              //location.replace("../HtmlPages/MainMenu.html");
+              document.getElementById("Main").style.display="none";
+          document.getElementById("Slots").style.display="block";
+          document.getElementById("canvas").style.display="none";
         }
         else
         {
@@ -74,8 +83,10 @@ $(document).ready(function () {
        alert(value);//not entirely sure how i would handle checking if the login was succesfull if the user is using an older version of embarkjs
        if(value)
        {
-        window.location.href = "../HtmlPages/MainMenu.html";
-      }
+        //location.replace("../HtmlPages/MainMenu.html");
+        document.getElementById("Main").style.display="none";
+      
+       }
        else
        {
          alert("Incorrect Username or Password");
@@ -88,7 +99,42 @@ $(document).ready(function () {
     }
   });
 
+ //Select Word Popup Start
+$("#Play").click(function(e){
+  e.preventDefault();
+ document.getElementById("canvas").style.display="block";
+ var term=$("#words").children("option").filter(":selected").text();
+ if(term =="Select word to play")
+ {
+  alert("Please select a valid word to play");
+  return;
+ }
+ document.getElementById("pick").style.display="none";
+ var winorNot =InitSlotMachine(ReadWords());
+ if(Done)
+ {
+ if(winorNot==term)
+ {
+   //10 tokens is the defualt winnings
+  Slots.methods.AddToWinnings(web3.eth.defaultAccount,10,0).call({from: web3.eth.defaultAccount,gas:3000000},function(err, value) {
+    alert(value);
+  });
+  alert("10 Dogos have been added to your account");
+  document.getElementById("pick").style.display="block";
+  document.getElementById("canvas").style.display="none";
 
+ }
+ else
+ {
+   alert("Wont you try again");
+  document.getElementById("pick").style.display="block";
+  document.getElementById("canvas").style.display="none";
+
+
+ }
+}
+});
+ //Select word Popup End
   //Signup Code End
   //Used to verify if password and username are correct when the user is loggin in
   function VerifyLogin (username,password)
@@ -150,13 +196,27 @@ $(".overlay").click(function() {
   $(".overlay-boxify").toggleClass("open")
 });
 
+//Upper case every item in the array
+
+
+
+function UppercaseItems(items)
+{
+  var Items= [];
+  for(var i=0; i < items.length;i++)
+  {
+    Items.push(items[i].toUpperCase());
+  }
+  return Items;
+}
 //MainMenu Code End
   // Slots Machine Setting Code
 
- function InitSlotMachine()
+ function InitSlotMachine(words)
  {
 
-var text = 'HELLO';  // The message displayed
+var nwords =UppercaseItems(words);
+var text = nwords[Math.floor((Math.random() * nwords.length) + 1)];  // The message displayed
 var chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';  // All possible Charactrers
 var scale = 50;  // Font size and overall scale
 var breaks = 0.003;  // Speed loss per frame
@@ -168,13 +228,15 @@ var delay = 40;  // Number of frames between letters stopping
 
 var canvas = document.querySelector('canvas');
 var ctx = canvas.getContext('2d');
-
+var done =false;//used to check if animation has completed or not
+var chosenText=text;
 text = text.split('');
 chars = chars.split('');
 var charMap = [];
 var offset = [];
 var offsetV = [];
 var loop;
+var count =0;
 for(var i=0;i<chars.length;i++){
   charMap[chars[i]] = i;
 }
@@ -220,10 +282,98 @@ requestAnimationFrame(loop = function(){
       offset[i] = 0;
       offsetV[i] = 0;
     }
-  }
-  
-  requestAnimationFrame(loop);
-});
+    }
 
- } 
+  requestAnimationFrame(loop);
+
 });
+return chosenText;
+ } 
+
+ //Funtion to read local text file with predifined words
+  //Funtion to read local text file with predifined words
+  function ReadWords()
+  {
+   var words =[
+   "iron",
+   "rung",
+   "loan",
+   "coat",
+   "mood",
+   "palm",
+   "ruin",
+   "heal",
+   "side",
+   "full",
+   "care",
+   "soft",
+   "dare",
+   "fuss",
+   "pain",
+   "weak",
+   "AIDS",
+   "fist",
+   "sell",
+   "rear",
+   "pill",
+   "fund",
+   "goat",
+   "year",
+   "late",
+   ];
+  return words;
+  }
+
+
+
+
+});
+  window.onload = function(e){ 
+    //document.getElementById("Slots").style.display="none";
+    var s =document.getElementById("id01").style.display="block";
+    var s1=document.getElementById("words");
+    document.getElementById("words").style.display="block";
+    var words = ReadWords();
+    for(var i =0; i <words.length;i++){
+      var option = document.createElement("option");
+      option.value=words[i];
+      option.text = words[i];
+      s1.appendChild(option);    
+    } 
+
+}
+
+ //Funtion to read local text file with predifined words
+ function ReadWords()
+ {
+  var words =[
+  "iron",
+  "rung",
+  "loan",
+  "coat",
+  "mood",
+  "palm",
+  "ruin",
+  "heal",
+  "side",
+  "full",
+  "care",
+  "soft",
+  "dare",
+  "fuss",
+  "pain",
+  "weak",
+  "AIDS",
+  "fist",
+  "sell",
+  "rear",
+  "pill",
+  "fund",
+  "goat",
+  "year",
+  "late",
+  ];
+ return words;
+ }
+
+

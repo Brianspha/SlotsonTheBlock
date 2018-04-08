@@ -227,6 +227,7 @@ contract Slots
         uint256 CurrentBalance;//used to check if the user has any balance to play the slots machine
         bool Created;//used to check if the gambler instance is active or not
     }
+    uint256 DefualtWinTokens=10;//no of tokens added each time a user wins due to change in the future
     mapping (address => Gambler) Gamblers;//keeps track of all registered Gamblers
     mapping (bytes32 => address) UserNames;//keeps track of all gamblers usernames
     address currentGambler;
@@ -246,12 +247,24 @@ contract Slots
         UserNames[stringToBytes32(usern)]=id;
         succes=true;
     }
-    function Login(string usrname,string pass) view returns (address id,string username,uint256 twinings,uint256 currentbalance)
+    
+    function Login(string usrname,string pass) view returns (bool succes)
     {
         bytes32 name =stringToBytes32(usrname);
         bytes32 pas =stringToBytes32(pass);
         require(name != 0x0);
         require(pas != 0x0);
+        address usr = UserNames[name];
+        require(Gamblers[usr].Created);//must have an active account
+        require(Gamblers[usr].passowrd == pas&& Gamblers[usr].username == name);//passwords and username must match
+        succes =true;
+    }
+    //Used for when loading the profile of the user this login function is only called when we have verified
+    //That the user is inface valid i.e. registered
+    function VerifiedLogin(string usrname,string password) constant returns (address id,string username,uint256 twinings,uint256 currentbalance)
+    {
+        bytes32 name =stringToBytes32(usrname);
+        bytes32 pas =stringToBytes32(password);
         address usr = UserNames[name];
         require(Gamblers[usr].Created);//must have an active account
         require(Gamblers[usr].passowrd == pas&& Gamblers[usr].username == name);//passwords and username must match
@@ -271,13 +284,10 @@ contract Slots
         Gamblers[msg.sender].CurrentBalance +=amount;//increase total dogos on hand 
         success=true;
     }
-    function AddToWinnings(address recipient,uint256 amount,uint256 tosubtract) returns (bool success) 
+    function AddToWinnings(address recipient) returns (bool success) 
     {
         require(recipient != address(0));
-        require(amount>0);
-        require(tosubtract >0);
-        amount -=tosubtract;
-        Gamblers[recipient].TotalWinings +=amount;
+        Gamblers[recipient].TotalWinings +=DefualtWinTokens;
         success=true;
     }
 

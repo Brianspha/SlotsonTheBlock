@@ -1,12 +1,14 @@
 /* Start Registration Process styling */
 
-body {
+#Main {
     margin: 0;
     background-image: url('../Images/background.png');
     font-family: 'Roboto', sans-serif;
     overflow-y: hidden;
     font: 600 16px/18px 'Open Sans', sans-serif;
     background-size: cover;
+    height: 100vh;
+    width: 100%;
 }
 
 .intropara {
@@ -400,4 +402,149 @@ a {
 
 /* End Registration Process styling */
 
+/*Start of Slots Machine Styling*/
+canvas{
+    position: absolute;
+    background: #111;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
 
+/*End of Slots Machine Styling*/
+
+/*Dropdown list start*/
+
+/* Reset Select */
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #3D5A80;
+    background-image: none;
+  }
+  /* Custom Select */
+  .select {
+    position: relative;
+    display: block;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    background: #3D5A80;;
+    overflow: hidden;
+    border-radius: .25em;
+    left:40%;
+
+  }
+  select {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0 0 0 .5em;
+    color: #fff;
+    cursor: pointer;
+  }
+  select::-ms-expand {
+    display: none;
+  }
+  /* Arrow */
+  .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 1em;
+    background: #3D5A80;
+    pointer-events: none;
+  }
+  /* Transition */
+  .select:hover::after {
+    color: #9AB999;
+  }
+  .select::after {
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+  /*End dropdown list Styling*/
+  
+
+
+/*Drop down list end*/
+
+/*Play Button Styling Start*/
+  /*Popup start*/
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #06D85F;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
+  
+  /*Popup End*/
+
+/*Play button Start*/
+
+#Play
+{
+  left: 55%;
+  background-color: turquoise;
+}
+/*Play Button Styling End*/

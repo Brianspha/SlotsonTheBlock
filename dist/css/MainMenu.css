@@ -1,9 +1,12 @@
 
 /*Menu Overlay Styling start*/
 body {
-	margin: 0;
-	font-family: 'Nunito', sans-serif;
-	background: #000;
+    position: absolute;
+    background: rgb(247, 246, 246);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
 }
 /* ==========================================================================
 Navigation
